@@ -1,0 +1,45 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 10rem 0 0 2rem;
+}
+.product{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+}
+.title{
+    top: 0;
+    font-size: 2rem;
+}
+img{
+    align-self: center;
+    width: 250px;
+    height: 250px;
+}
+.author{
+    color: #2B7186;
+}
+.info{
+    color: gray;
+}
+.product__price{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 0 5px 0 5px;
+    border-radius: 15px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+}
+button{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    padding: 10px;
+    background-color: white;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}

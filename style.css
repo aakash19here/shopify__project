@@ -1,0 +1,70 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    font-family:monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;   
+    margin-left: 1rem;
+}
+.cart{
+    height: 50px;
+    width: 50px;
+    margin-right: 1rem;
+}
+.category__one{
+    padding-left: 2rem;
+}
+.category__one--books{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.category__one--images{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+.name{
+    font-size: 0.982rem;
+    color: black;
+}
+.author{
+    color: gray;
+}
+.category__two{
+    padding-left: 2rem;
+}
+.category__two--clothing{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.category__two--images{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+.size{
+    width: 200px;
+    height: 200px;
+}
+.category__three{
+    padding-left: 2rem;
+}
+.category__three--electronics{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.category__three--images{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
