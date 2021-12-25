@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    margin: 10rem 0 0 2rem;
+    margin: 4rem 0 0 2rem;
 }
 .product{
     display: grid;

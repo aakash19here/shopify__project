@@ -40,9 +40,7 @@ a{
 .author{
     color: gray;
 }
-.category__two{
-    padding-left: 2rem;
-}
+
 .category__two--clothing{
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -56,9 +54,7 @@ a{
     width: 200px;
     height: 200px;
 }
-.category__three{
-    padding-left: 2rem;
-}
+
 .category__three--electronics{
     font-size: 1.8rem;
     text-transform: uppercase;
