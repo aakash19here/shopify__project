@@ -5,7 +5,6 @@ a{
     text-decoration: none;
 }
 .navbar{
-    font-family:monospace;
     display: flex;
     justify-content: space-between;
     align-items:center;
